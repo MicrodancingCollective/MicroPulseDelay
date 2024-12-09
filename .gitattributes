@@ -1,2 +1,15 @@
-# Auto detect text files and perform LF normalization
+# Manejo de saltos de línea
 * text=auto
+
+# Archivos binarios (imágenes para la interfaz)
+*.png binary
+*.jpg binary
+*.jpeg binary
+
+# Archivos de código fuente
+*.cpp text
+*.h text
+
+# Archivos de texto como README y LICENSE
+LICENSE text
+README.md text
